@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hyperlotl(The one with the website)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.0/dist/purify.min.js"></script>
+  <script src="scripts/projectpage.js" defer></script>
+  <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding:0;
+    }
+
+    #header-bar {
+        height: 75px;
+        flex-shrink: 0;
+        flex-shrink: 0; 
+        display: flex;
+        gap:10px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        min-width: 0;
+        margin:0;
+        border-bottom:5px solid #a493b9;
+
+    }
+    #body {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap:10px;
+        flex: 1;
+        min-height: 0;
+        overflow-y: auto;
+        margin:0;
+    }
+    .backButton{
+        background:#c70000;
+        border: 5px solid #7e0000;
+    }
+    .stylise{
+        transform:translateY(0);
+        transition:transform 0.3s ease;
+    }
+    .stylise:hover{
+        transform:translateY(-10px)
+    }
+  </style>
+</head>
+<body>
+    <div id="app">
+        
+        <div id="text"class="topbar"style="font-weight:bold;font-size:25px;margin-bottom:0;padding-bottom:0"class="topbar"></div>
+        <div id="header-bar"class="topbar"></div>
+        <div id="body"></div>
+    </div> 
+</body>
+</html>

@@ -1,110 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hyperlotl(The one with the website)</title>
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Hyperlotl(The one with the website)</title>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
   <style>
-    *{
-      padding: 0px 0px;
-      font-size: 20px;
-      margin:10px 10px;
+    .stylise{
+        transform:translateY(0);
+        transition:transform 0.3s ease;
     }
-    #aboutme a {
-      margin: 0px 0px;
-    }
-    body {
-      padding: 20px;
-      text-align: left;
-      font-family: "exo 2";
-      background-color: white;
-      color: #333;
-    }
-    button {
-      background: white;
-      border: 1px solid;
-      outline: none;
-      cursor: pointer;
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      
-    }
-    .c button{
-      width: 230px;
-      font-family: "exo 2";
-      border-radius: 9999px;
-      text-align: right;
-      padding: 5px 0px;
-      border-radius: 9999px;
-      border: 5px solid transparent;
-      cursor: pointer;
-      color: black;
-      align-items: center;
-      font-weight: bold;
-      background:
-        linear-gradient(#f3b7ef, #f3b7ef) padding-box,
-        linear-gradient(22deg, #5865F2, #FF00FF) border-box;
-    }
-    .c button:hover{
-      box-shadow: 0 0 8px rgba(255, 0, 255, 0.5);
-      
-    }
-    #project_info div{
-      padding: 0px 0px;
-      margin: 0px 0px;
-    }
-    #project_list button{
-      background: #ffffff;
-      border-color: #a1a1a1;
-      border-radius: 10px;
-      padding: 12px 16px;
-      margin-bottom: 10px;
-      box-shadow: 1px 1px 4px rgba(0,0,0,0.05);
-      width: 100%;
-      height: 75px;
-      justify-content: flex-start;
-      align-items: flex-start;
-    }
-    #project_list button:hover {
-      background: #b4b4b4;
-    } 
-    button:focus {
-      outline: none;            /* no outline on focus */
-    }
-    h1 {
-      font-size: 2em;
-      color: #2c3e50;
-    }
-    #links_container{
-      margin: 0px 0px;
+    .stylise:hover{
+        transform:translateY(-10px)
     }
   </style>
+	
 </head>
 <body>
-  <div id="pages" class="c"></div>
-  <div id="aboutme_container", class="staticPage content">
+  <div class="app">
   <h1>Hyperlotl's Website</h1>
   <h2>Information about the Axolotl:</h2>
-  <p id="aboutme">Hi! I'm Hyperlotl, an axolotl developer obsessed with STEM and coding. Equal parts smartness and pure CHAOS.<br>An engineer of code, complexities, and various other things, I specialise in bending deadlines and my sanity to force my wildest ideas into existence! Well… as much as my skills permit, anyhow. <br>My aim is to share my various adventures through storytime animations. I make animations about my personal experiences(most of which involve coding) and also do devlogs.<br>Here are my hyperfixations: Vocaloid(especially Miku, Teto, and Zundamon), Vtubers(Mainly Neuro-Sama) and Futurama.<br>Oh BTW I should probably mention I have MEDICALLY DIAGNOSED ADHD and anxiety</p>
+  <p id="aboutme">
+  Im Hyperlotl!!! I am a chaotic genius obsessed with physics, chemistry, biochem, animation and coding.<br>
+  I basically engineer the most random tools, projects and random stuff that pops into my head. I specialise in bending deadlines (and my sanity) to my random ideas into existence! Well… as much as my skills permit, anyhow.<br>
+  My aim is to share my various adventures through storytime animations. I make animations about my personal experiences(most of which involve coding) and also do animated devlogs.<br>
+  </p>
+  <button class="stylise">more about me</button>
+  <hr>
+  <h2>Check out some stuff I built:</h2>
+  <div id="mini-category-list" class="horizontalList"style="height:75px"></div>
   <hr>
   <h2>Wild Hyperlotls can be found here:</h2>
   <div id="links_container">
     <p>im lazy to put stuff here</p>
   </div>
-  <hr>
-  <h2 id="title"></h2>
+  
   </div>
-  <div id="categories" class="c"></div>
-  <div id="project_list" ></div>
-  <div id="project_info" class="c"></div>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.0/dist/purify.min.js"></script>
-  <script src="script.js"></script>
-  <script>
-    const p = document.getElementById("aboutme")
-    p.innerHTML = p.innerHTML.replace("various adventures", '<a href="https://www.youtube.com/@Hyperlotl/videos" target="_blank">various adventures</a>');
-  </script>
+  <script src="index.js" defer></script>
+  
+	<script>
+		const p = document.getElementById("aboutme")
+		p.innerHTML = p.innerHTML.replace("various adventures", '<a href="https://www.youtube.com/@Hyperlotl/videos" target="_blank">various adventures</a>');
+	</script>
 </body>
 </html>

@@ -19,7 +19,7 @@
                 "parseType":"ext"
             },
             {
-                "name":"evaluatePlus",
+                "name":"Evaluate+",
                 "repo_link":"https://github.com/Hyperlotl/AI-inference-API",
                 "readme_link":"https://raw.githubusercontent.com/Hyperlotl/evaluatePlus/refs/heads/main/README.md",
                 "description":"Powerful extension that allows you to create and run JavaScript scripts within TurboWarp",

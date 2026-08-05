@@ -27,14 +27,14 @@ const repoButton=document.createElement('button');
 repoButton.className="stylise";
 repoButton.textContent="GitHub repository"
 repoButton.onclick=()=>{
-    window.location.href = projectData.repo_link;
+    window.location.href = projectData.repo_link??"missingPage.html";
 }
 document.getElementById("header-bar").appendChild(backButton)
 document.getElementById("header-bar").appendChild(repoButton)
 //buttons with special functionality
 if (Object.keys(projectData).includes("parseType")){
     //For turbowarp extensions only
-    if (projectData.parseType=="ext"){
+    if (projectData.parseType=="ext"&&projectData.js_src_link){
         //copy extension JS to clipboard
         const extJSbutton=document.createElement('button');
         extJSbutton.className="stylise";

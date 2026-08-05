@@ -27,7 +27,7 @@ const repoButton=document.createElement('button');
 repoButton.className="stylise";
 repoButton.textContent="GitHub repository"
 repoButton.onclick=()=>{
-    window.location.href = projectData.repo_link??"missingPage.html";
+    window.location.href = projectData.repo_link??"IMessedUp.html";
 }
 document.getElementById("header-bar").appendChild(backButton)
 document.getElementById("header-bar").appendChild(repoButton)

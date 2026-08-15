@@ -32,12 +32,13 @@ repoButton.onclick=()=>{
 document.getElementById("header-bar").appendChild(backButton)
 document.getElementById("header-bar").appendChild(repoButton)
 if (projectData.project_page){
-    const repoButton=document.createElement('button');
-    repoButton.className="stylise";
-    repoButton.textContent="Go to project page"
-    repoButton.onclick=()=>{
+    const projectPageButton=document.createElement('button');
+    projectPageButton.className="stylise";
+    projectPageButton.textContent="Go to project page"
+    projectPageButton.onclick=()=>{
     window.location.href = projectData.project_page??"IMessedUp.html";
     }
+    document.getElementById("header-bar").appendChild(projectPageButton)
 }
 //buttons with special functionality
 if (Object.keys(projectData).includes("parseType")){

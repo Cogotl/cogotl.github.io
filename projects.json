@@ -33,6 +33,19 @@
         "projects":[
         ]
     },
+    "Programs":{
+        "display_name":"Programs",
+        "projects":[
+            {
+                "name":"Moescript",
+                "repo_link":"https://github.com/Hyperlotl/moescript",
+                "readme_link":"https://raw.githubusercontent.com/Hyperlotl/moescript/refs/heads/main/README.md",
+                "description":"Esolang themed around being kawaii and cute",
+                "project_page":"https://www.npmjs.com/package/@hyperlotl/moescript",
+                "parseType":"npm"
+            }   
+        ]
+    },
     "Games":{
         "display_name":"Games",
         "projects":[

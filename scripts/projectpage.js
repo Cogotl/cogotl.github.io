@@ -31,6 +31,14 @@ repoButton.onclick=()=>{
 }
 document.getElementById("header-bar").appendChild(backButton)
 document.getElementById("header-bar").appendChild(repoButton)
+if (projectData.project_page){
+    const repoButton=document.createElement('button');
+    repoButton.className="stylise";
+    repoButton.textContent="Go to project page"
+    repoButton.onclick=()=>{
+    window.location.href = projectData.project_page??"IMessedUp.html";
+    }
+}
 //buttons with special functionality
 if (Object.keys(projectData).includes("parseType")){
     //For turbowarp extensions only

@@ -58,7 +58,7 @@
       margin:0;
     }
     .stylise{
-      width: 230px fixed;
+      width: 250px;
       flex-shrink: 0;
       font-family: "exo 2";
       border-radius: 9999px;

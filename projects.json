@@ -4,33 +4,33 @@
         "projects":[
             {
                 "name":"Turbopython V1",
-                "repo_link":"https://github.com/cogotl/TurboPython",
-                "readme_link":"https://raw.githubusercontent.com/cogotl/TurboPython/refs/heads/main/README.md",
+                "repo_link":"https://github.com/Cogotl/TurboPython",
+                "readme_link":"https://raw.githubusercontent.com/Cogotl/TurboPython/refs/heads/main/README.md",
                 "description":"Run Python scripts in TurboWarp using Pyodide. Outdated",
-                "js_src_link":"https://raw.githubusercontent.com/cogotl/TurboPython/refs/heads/main/TurboPython_V1.js",
+                "js_src_link":"https://raw.githubusercontent.com/Cogotl/TurboPython/refs/heads/main/TurboPython_V1.js",
                 "parseType":"ext"
             },
             {
                 "name":"AI inference API",
-                "repo_link":"https://github.com/cogotl/AI-inference-API",
-                "readme_link":"https://raw.githubusercontent.com/cogotl/AI-inference-API/refs/heads/main/README.md",
+                "repo_link":"https://github.com/Cogotl/AI-inference-API",
+                "readme_link":"https://raw.githubusercontent.com/Cogotl/AI-inference-API/refs/heads/main/README.md",
                 "description":"Connect to serverless AI inference providers for text generation chatbots",
-                "js_src_link":"https://raw.githubusercontent.com/cogotl/AI-inference-API/refs/heads/main/extension.js",
+                "js_src_link":"https://raw.githubusercontent.com/Cogotl/AI-inference-API/refs/heads/main/extension.js",
                 "parseType":"ext"
             },
             {
                 "name":"Evaluate+",
-                "repo_link":"https://github.com/cogotl/AI-inference-API",
-                "readme_link":"https://raw.githubusercontent.com/cogotl/evaluatePlus/refs/heads/main/README.md",
+                "repo_link":"https://github.com/Cogotl/AI-inference-API",
+                "readme_link":"https://raw.githubusercontent.com/Cogotl/evaluatePlus/refs/heads/main/README.md",
                 "description":"Powerful extension that allows you to create and run JavaScript scripts within TurboWarp",
-                "js_src_link":"https://raw.githubusercontent.com/cogotl/evaluatePlus/refs/heads/main/extension.js",
+                "js_src_link":"https://raw.githubusercontent.com/Cogotl/evaluatePlus/refs/heads/main/extension.js",
                 "parseType":"ext"
             },
             {
                 "name":"Physics+",
-                "repo_link":"https://github.com/cogotl/physicsplus",
-                "readme_link":"https://raw.githubusercontent.com/cogotl/physicsplus/refs/heads/main/README.md",
-                "description":"Powerful extension that allows you to create and run JavaScript scripts within TurboWarp",
+                "repo_link":"https://github.com/Cogotl/physicsplus",
+                "readme_link":"https://raw.githubusercontent.com/Cogotl/physicsplus/refs/heads/master/README.md",
+                "description":"Powerful physics extension for turbowarp",
                 "parseType":"ext"
             }  
         ]
@@ -45,8 +45,8 @@
         "projects":[
             {
                 "name":"Moescript",
-                "repo_link":"https://github.com/cogotl/moescript",
-                "readme_link":"https://raw.githubusercontent.com/cogotl/moescript/refs/heads/main/README.md",
+                "repo_link":"https://github.com/Cogotl/moescript",
+                "readme_link":"https://raw.githubusercontent.com/Cogotl/moescript/refs/heads/main/README.md",
                 "description":"Esolang themed around being kawaii and cute",
                 "project_page":"https://www.npmjs.com/package/@hyperlotl/moescript",
                 "parseType":"npm"

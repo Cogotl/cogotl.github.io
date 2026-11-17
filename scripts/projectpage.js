@@ -47,7 +47,7 @@ if (Object.keys(projectData).includes("parseType")){
         //copy extension JS to clipboard
         const extJSbutton=document.createElement('button');
         extJSbutton.className="stylise";
-        extJSbutton.textContent="Copy extension JS to clipboard"
+        extJSbutton.textContent="Copy extension JS"
         extJSbutton.onclick = async () => {
             try {
                 const src = await copyJSsrc(projectData.js_src_link);
